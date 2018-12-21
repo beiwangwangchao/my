@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: web
+  datasource:
+    url: jdbc:mysql://rm-bp152w19gvx3tj8be3o.mysql.rds.aliyuncs.com/crmnew?useUnicode=true&characterEncoding=utf8&useSSL=true&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true
+    username: root
+    password: Hugaint2017
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+mybatis:
+  mapper-locations: classpath:/mybatis/*.xml
