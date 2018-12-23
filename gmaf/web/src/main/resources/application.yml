@@ -9,3 +9,5 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
 mybatis:
   mapper-locations: classpath:/mybatis/*.xml
+server:
+  port: 8888

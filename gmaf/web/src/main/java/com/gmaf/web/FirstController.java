@@ -28,6 +28,6 @@ public class FirstController {
         Customer customer2 = new Customer();
         customer2 = firstMapper.selectFirst("123");
 
-        return null;
+        return "hello world";
     }
 }
