@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jingcheng.marketing.business.mapper.CrmOrganizationMapper">
+
+    <select id="queryPage" parameterType="java.util.Map" resultType="java.util.Map">
+        select
+        *
+        from crm_organization
+        <where>
+            1 = 1
+             <if test="obj.id != null and obj.id != ''">
+                 and id = #{obj.id}
+             </if>
+             <if test="obj.ctime != null and obj.ctime != ''">
+                 and ctime = #{obj.ctime}
+             </if>
+             <if test="obj.createdBy != null and obj.createdBy != ''">
+                 and created_by = #{obj.createdBy}
+             </if>
+             <if test="obj.utime != null and obj.utime != ''">
+                 and utime = #{obj.utime}
+             </if>
+             <if test="obj.lastUpdatedBy != null and obj.lastUpdatedBy != ''">
+                 and last_updated_by = #{obj.lastUpdatedBy}
+             </if>
+             <if test="obj.versionNum != null">
+                 and version_num = #{obj.versionNum}
+             </if>
+             <if test="obj.code != null and obj.code != ''">
+                 and code = #{obj.code}
+             </if>
+             <if test="obj.name != null and obj.name != ''">
+                 and name = #{obj.name}
+             </if>
+             <if test="obj.type != null and obj.type != ''">
+                 and type = #{obj.type}
+             </if>
+             <if test="obj.description != null and obj.description != ''">
+                 and description = #{obj.description}
+             </if>
+             <if test="obj.parentOrgId != null and obj.parentOrgId != ''">
+                 and parent_org_id = #{obj.parentOrgId}
+             </if>
+             <if test="obj.personInCharge != null and obj.personInCharge != ''">
+                 and person_in_charge = #{obj.personInCharge}
+             </if>
+             <if test="obj.personInChargePhone != null and obj.personInChargePhone != ''">
+                 and person_in_charge_phone = #{obj.personInChargePhone}
+             </if>
+             <if test="obj.isDeleted != null">
+                 and is_deleted = #{obj.isDeleted}
+             </if>
+             <if test="obj.onsysId != null">
+                 and onsys_id = #{obj.onsysId}
+             </if>
+        </where>
+    </select>
+</mapper>

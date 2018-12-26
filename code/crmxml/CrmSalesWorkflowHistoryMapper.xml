@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jingcheng.marketing.business.mapper.CrmSalesWorkflowHistoryMapper">
+
+    <select id="queryPage" parameterType="java.util.Map" resultType="java.util.Map">
+        select
+        *
+        from crm_sales_workflow_history
+        <where>
+            1 = 1
+             <if test="obj.id != null and obj.id != ''">
+                 and id = #{obj.id}
+             </if>
+             <if test="obj.versionNum != null">
+                 and version_num = #{obj.versionNum}
+             </if>
+             <if test="obj.ctime != null and obj.ctime != ''">
+                 and ctime = #{obj.ctime}
+             </if>
+             <if test="obj.createdBy != null and obj.createdBy != ''">
+                 and created_by = #{obj.createdBy}
+             </if>
+             <if test="obj.utime != null and obj.utime != ''">
+                 and utime = #{obj.utime}
+             </if>
+             <if test="obj.lastUpdatedBy != null and obj.lastUpdatedBy != ''">
+                 and last_updated_by = #{obj.lastUpdatedBy}
+             </if>
+             <if test="obj.remark != null and obj.remark != ''">
+                 and remark = #{obj.remark}
+             </if>
+             <if test="obj.fromStatus != null and obj.fromStatus != ''">
+                 and from_status = #{obj.fromStatus}
+             </if>
+             <if test="obj.toStatus != null and obj.toStatus != ''">
+                 and to_status = #{obj.toStatus}
+             </if>
+             <if test="obj.fromId != null and obj.fromId != ''">
+                 and from_id = #{obj.fromId}
+             </if>
+             <if test="obj.toId != null and obj.toId != ''">
+                 and to_id = #{obj.toId}
+             </if>
+             <if test="obj.transactionType != null and obj.transactionType != ''">
+                 and transaction_type = #{obj.transactionType}
+             </if>
+             <if test="obj.workflowId != null and obj.workflowId != ''">
+                 and workflow_id = #{obj.workflowId}
+             </if>
+        </where>
+    </select>
+</mapper>

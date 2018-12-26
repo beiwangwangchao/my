@@ -1,0 +1,33 @@
+package com.inlee.b2c.model.entity.order;
+
+import java.io.Serializable;
+import java.util.Date;
+import com.inlee.b2c.model.bean.Page;
+
+/**
+ * 代码生成器自动生成
+ * Date:${.now}
+ * @author rono
+ */
+public class ${entity_name} implements Serializable{
+<#list beans as bean>
+  	  ${bean.accessAuth} ${bean.type} ${bean.propName}; // ${bean.remarks}
+</#list>
+      public Page page;
+ <#list beans as bean>
+  	  /**
+	   * ${bean.remarks}
+	   * @return ${bean.propName}
+	   */
+	  public ${bean.type} get${bean.propNameUP}(){
+	   return ${bean.propName};
+	  }
+	  /**
+	   * ${bean.remarks}
+	   * @param ${bean.propName} 
+	   */
+	  public void set${bean.propNameUP}(${bean.type} ${bean.propName}){
+	    this.${bean.propName} = ${bean.propName};
+	  }
+</#list>
+}

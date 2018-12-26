@@ -1,0 +1,99 @@
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.inlee.b2c.common.constants.Constants;
+import com.inlee.b2c.common.utils.CommonUtil;
+import com.inlee.b2c.model.bean.Page;
+import com.inlee.b2c.model.bean.PageJson;
+import com.inlee.b2c.model.entity.sys.${entity_name};
+
+public final class ${entity_name}Controller {
+	@ResponseBody
+	@RequestMapping("/get${entity_name}Page")
+	public PageJson<${entity_name}> get${entity_name}Page(PageJson<${entity_name}> page){
+	    ${entity_name} entity = new ${entity_name}();
+	    Page   p = new Page();
+	    p.setShowCount(page.getPageSize());
+		p.setCurrentPage(page.getPageNumber());
+		entity.page = p;
+		try {
+			List<${entity_name}> list = ;
+			if(null!=list&&list.size()>0){
+				page.setRows(list);
+			}else{
+				page.setRows(new ArrayList<${entity_name}>());
+			}
+			page.setPageNumber(entity.page.getCurrentPage());
+			page.setTotal(entity.page.getTotalResult());
+		} catch (Exception e) {
+			logger.error(e.getMessage(),e);
+		}
+		return page;
+	}
+	@ResponseBody
+	@RequestMapping("/add${entity_name}")
+	public String add${entity_name}(${entity_name} entity){
+		if(CommonUtil.isEmpty(entity)){
+			return Constants.EX_PARAM;
+		}
+		try {
+			this.sysService.createRole(entity);
+		} catch (Exception e) {
+			logger.error(e.getMessage(),e);
+			return Constants.EX_APP;
+		}
+		return Constants.PASS_OK;
+	}
+	@ResponseBody
+	@RequestMapping("/delete${entity_name}")
+	public String delete${entity_name}(String param){
+		if(CommonUtil.isEmpty(param))return Constants.EX_PARAM;
+		String[] params = param.split(",");
+		Long[] ids = new Long[params.length];
+		for(int i=0,len=params.length;i<len;i++){
+			ids[i] = Long.valueOf(params[i]);
+		}
+		try {
+			
+		} catch (Exception e) {
+			logger.error(e.getMessage(),e);
+			return Constants.EX_APP;
+		}
+		return Constants.PASS_OK;
+	}
+	@ResponseBody
+	@RequestMapping("/get${entity_name}ById")
+	public ${entity_name} get${entity_name}ById(Long id){
+		if(CommonUtil.isEmpty(id))return null;
+		try {
+			
+		} catch (Exception e) {
+			logger.error(e.getMessage(),e);
+		}
+		return null;
+	}
+	@ResponseBody
+	@RequestMapping("/update${entity_name}")
+	public String update${entity_name}(${entity_name} entity,Long id){
+		if(CommonUtil.isEmpty(entity)||CommonUtil.isEmpty(id)){
+			return Constants.EX_PARAM;
+		}
+		try {
+			${entity_name} data = this.sysService.retrieveRoleById(id);
+			if(CommonUtil.isNotEmpty(data)){
+			<#list beans as bean>
+				  if(CommonUtil.isNotEmpty(entity.get${bean.propNameUP}()))data.set${bean.propNameUP}(entity.get${bean.propNameUP}());
+			</#list>
+			}else{
+				return Constants.EX_PARAM;
+			}
+		} catch (Exception e) {
+			logger.error(e.getMessage(),e);
+			return Constants.EX_APP;
+		}
+		return Constants.PASS_OK;
+	}
+}

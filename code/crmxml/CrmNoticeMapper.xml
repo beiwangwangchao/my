@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jingcheng.marketing.business.mapper.CrmNoticeMapper">
+
+    <select id="queryPage" parameterType="java.util.Map" resultType="java.util.Map">
+        select
+        *
+        from crm_notice
+        <where>
+            1 = 1
+             <if test="obj.id != null and obj.id != ''">
+                 and id = #{obj.id}
+             </if>
+             <if test="obj.perantId != null and obj.perantId != ''">
+                 and perant_id = #{obj.perantId}
+             </if>
+             <if test="obj.noticeId != null and obj.noticeId != ''">
+                 and notice_id = #{obj.noticeId}
+             </if>
+             <if test="obj.noticeTitle != null and obj.noticeTitle != ''">
+                 and notice_title = #{obj.noticeTitle}
+             </if>
+             <if test="obj.noticeType != null">
+                 and notice_type = #{obj.noticeType}
+             </if>
+             <if test="obj.noticeModal != null and obj.noticeModal != ''">
+                 and notice_modal = #{obj.noticeModal}
+             </if>
+             <if test="obj.noticeBody != null and obj.noticeBody != ''">
+                 and notice_body = #{obj.noticeBody}
+             </if>
+             <if test="obj.noticeStatus != null">
+                 and notice_status = #{obj.noticeStatus}
+             </if>
+             <if test="obj.scopeType != null and obj.scopeType != ''">
+                 and scope_type = #{obj.scopeType}
+             </if>
+             <if test="obj.scope != null and obj.scope != ''">
+                 and scope = #{obj.scope}
+             </if>
+             <if test="obj.isStick != null">
+                 and is_stick = #{obj.isStick}
+             </if>
+             <if test="obj.isDeleted != null">
+                 and is_deleted = #{obj.isDeleted}
+             </if>
+             <if test="obj.versionNum != null">
+                 and version_num = #{obj.versionNum}
+             </if>
+             <if test="obj.ctime != null and obj.ctime != ''">
+                 and ctime = #{obj.ctime}
+             </if>
+             <if test="obj.createdBy != null and obj.createdBy != ''">
+                 and created_by = #{obj.createdBy}
+             </if>
+             <if test="obj.utime != null and obj.utime != ''">
+                 and utime = #{obj.utime}
+             </if>
+             <if test="obj.lastUpdatedBy != null and obj.lastUpdatedBy != ''">
+                 and last_updated_by = #{obj.lastUpdatedBy}
+             </if>
+        </where>
+    </select>
+</mapper>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jingcheng.marketing.business.mapper.CrmCustomerMapper">
+
+    <select id="queryPage" parameterType="java.util.Map" resultType="java.util.Map">
+        select
+        *
+        from crm_customer
+        <where>
+            1 = 1
+             <if test="obj.id != null and obj.id != ''">
+                 and id = #{obj.id}
+             </if>
+             <if test="obj.ctime != null and obj.ctime != ''">
+                 and ctime = #{obj.ctime}
+             </if>
+             <if test="obj.createdBy != null and obj.createdBy != ''">
+                 and created_by = #{obj.createdBy}
+             </if>
+             <if test="obj.utime != null and obj.utime != ''">
+                 and utime = #{obj.utime}
+             </if>
+             <if test="obj.lastUpdatedBy != null and obj.lastUpdatedBy != ''">
+                 and last_updated_by = #{obj.lastUpdatedBy}
+             </if>
+             <if test="obj.versionNum != null">
+                 and version_num = #{obj.versionNum}
+             </if>
+             <if test="obj.code != null and obj.code != ''">
+                 and code = #{obj.code}
+             </if>
+             <if test="obj.name != null and obj.name != ''">
+                 and name = #{obj.name}
+             </if>
+             <if test="obj.phone != null and obj.phone != ''">
+                 and phone = #{obj.phone}
+             </if>
+             <if test="obj.type != null and obj.type != ''">
+                 and type = #{obj.type}
+             </if>
+             <if test="obj.school != null and obj.school != ''">
+                 and school = #{obj.school}
+             </if>
+             <if test="obj.grade != null and obj.grade != ''">
+                 and grade = #{obj.grade}
+             </if>
+             <if test="obj.sex != null and obj.sex != ''">
+                 and sex = #{obj.sex}
+             </if>
+             <if test="obj.birthday != null and obj.birthday != ''">
+                 and birthday = #{obj.birthday}
+             </if>
+             <if test="obj.interest != null and obj.interest != ''">
+                 and interest = #{obj.interest}
+             </if>
+             <if test="obj.province != null and obj.province != ''">
+                 and province = #{obj.province}
+             </if>
+             <if test="obj.city != null and obj.city != ''">
+                 and city = #{obj.city}
+             </if>
+             <if test="obj.region != null and obj.region != ''">
+                 and region = #{obj.region}
+             </if>
+             <if test="obj.address != null and obj.address != ''">
+                 and address = #{obj.address}
+             </if>
+             <if test="obj.isBuy != null">
+                 and is_buy = #{obj.isBuy}
+             </if>
+             <if test="obj.isDeleted != null">
+                 and is_deleted = #{obj.isDeleted}
+             </if>
+             <if test="obj.attribA != null and obj.attribA != ''">
+                 and attrib_a = #{obj.attribA}
+             </if>
+             <if test="obj.attribB != null and obj.attribB != ''">
+                 and attrib_b = #{obj.attribB}
+             </if>
+             <if test="obj.attribC != null and obj.attribC != ''">
+                 and attrib_c = #{obj.attribC}
+             </if>
+             <if test="obj.attribD != null">
+                 and attrib_d = #{obj.attribD}
+             </if>
+             <if test="obj.attribE != null">
+                 and attrib_e = #{obj.attribE}
+             </if>
+             <if test="obj.attribF != null">
+                 and attrib_f = #{obj.attribF}
+             </if>
+        </where>
+    </select>
+</mapper>

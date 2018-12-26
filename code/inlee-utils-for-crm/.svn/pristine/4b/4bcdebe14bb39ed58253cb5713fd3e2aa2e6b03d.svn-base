@@ -1,0 +1,187 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ include file="../../../pages/taglibs.jsp"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>后台管理系统</title>
+		<link href="${r'${'}ctx}/css/style.css" rel="stylesheet" type="text/css" />
+		<link href="${r'${'}ctx}/css/themes/icon.css" rel="stylesheet" type="text/css" />
+		<link href="${r'${'}ctx}/css/themes/bootstrap/easyui.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="${r'${'}ctx}/js/jquery-1.8.3.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src="${r'${'}ctx}/js/jquery.easyui.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src="${r'${'}ctx}/js/jquery.showLoading.js" charset="utf-8"></script>
+		<script type="text/javascript" src="${r'${'}ctx}/js/jquery.utils.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="place">
+			<span>位置：</span>
+		    <ul class="placeul">
+			    <li><a href="#">首页</a></li>
+			    <li><a href="#">相册类型</a></li>
+		    </ul>
+		</div>
+		<!-- buttons -->
+		<div class="rightinfo">
+			<div class="tools">
+			 	<ul class="toolbar">
+			     <li class="click" id="add${entity_name}"    onclick="javascript:add${entity_name}Dialog();" style="display:none;"><span><a href="#"><img src="${r'${'}ctx}/images/t01.png"/></a></span>添加</li>
+			 	 <li class="click" id="update${entity_name}" onclick="javascript:update${entity_name}Dialog();" style="display:none;"><span><a href="#"><img src="${r'${'}ctx}/images/t02.png"/></a></span>修改</li>
+			 	 <li class="click" id="delete${entity_name}" onclick="javascript:delete${entity_name}();" style="display:none;"><span><a href="#"><img src="${r'${'}ctx}/images/t03.png"/></a></span>删除</li>
+			    </ul>
+			</div>
+		</div>
+		<!-- grid -->
+		<div>
+			<table id="tt" style="width:1024px;height:452px"></table>
+		</div>
+		<!-- dialog -->
+		<div id="${entity_name_low}Dialog" title="操作菜单" class="easyui-dialog" closed="true"  style="width:300px;height:200px;padding:10px" data-options="iconCls:'icon-save'" buttons="#dialog_uttons">
+			<div class="tab">
+ 				<form class="easyui-form" id="${entity_name_low}Form" method="post">
+ 					<fieldset style="width:260px">
+ 						<legend>带<b>*</b>为必填项</legend>
+ 						<table border="0">
+							<#list beans as bean>
+								 <#if bean.propName == bean.keyName>
+									<tr>
+										<td><input id="${bean.propName}" name="${bean.propName}" type="hidden"/></td>
+									</tr>
+									<#else>
+									<tr>
+										<td>${bean.remarks}<b>*</b></td><td><input id="${bean.propName}" name="${bean.propName}" class="easyui-validatebox" type="text"  data-options="required:true,missingMessage:'${bean.remarks}不能为空!'"></input></td>
+									</tr>
+								 </#if>
+							</#list>
+ 						</table>
+ 					</fieldset>
+ 				</form>
+			</div>
+		</div>
+		<!-- dialog buttons -->
+		<div id="dialog_uttons">
+			<a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-ok" onclick="submitForm();">提交</a>
+			<a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-cancel" onclick="$('#${entity_name_low}Dialog').dialog('close');">关闭</a>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				${r'${'}sessionScope.PAGE_SECURITY_AUTH_STRING}
+	        	initGrid();
+			});
+			function initGrid(){
+				 $('#tt').datagrid({
+						url:'${r'${'}ctx}/${entity_name_low}/get${entity_name}Page',
+						idField : "id",
+						pagination:true,
+						rownumbers : true,
+						fitColumns : true,
+						collapsible : true,
+						autoRowHeight : true,
+						loadMsg : "数据加载中,请稍等...",
+						frozenColumns : [[{field : 'ck',checkbox : true}]],
+						columns:[[
+							 <#list beans as bean>
+				             {title:'${bean.remarks}', field:'${bean.propName}',width:50,align:'center'}<#if bean_has_next>,</#if>
+				 			 </#list>
+						]]
+				 });
+			}
+			var flag;
+			function add${entity_name}Dialog(){
+				$('#${entity_name_low}Form').form('clear');
+				$('#${entity_name_low}Dialog').dialog('open');
+				flag = "add";
+			}
+		    function submitForm(){
+		    	var url;
+		    	if(flag==='add')
+		    		url = "add${entity_name}";
+		    	else if(flag==='update')
+		    		url = "update${entity_name}";
+		    	$('#${entity_name_low}Form').form('submit',{
+			    	 dataType:"json",
+			    	 url:'${r'${'}ctx}/${entity_name_low}/'+url,
+			    	 onSubmit:function(){
+			    	     if($(this).form('validate')){
+		    				showLoading();
+		    				return true;
+			    		 }else
+			    			return flase;
+			    	 },success:function(data){
+			    		$('#tt').datagrid('reload');
+			    		$('#tt').datagrid('clearSelections');
+			    		$('#${entity_name_low}Dialog').dialog('close');
+			    	 	$.messager.alert('Info',eval(data), 'info');
+			    	 	hideLoading();
+			    	 } 
+		    	});
+	        }
+		    function update${entity_name}Dialog(){
+		    	flag = "update";
+		    	var chks= $('#tt').datagrid('getChecked');
+		    	if(null!=chks && chks.length==1){
+		    	    showLoading();
+		    		$.ajax({
+		    			url:'${r'${'}ctx}/${entity_name_low}/get${entity_name}ById',
+		    			type:"POST",
+		    			data:{'id':chks[0].id},
+		    			dataType:"json",
+		    			async: false,
+		    			success:function(data){
+			    			if(null!=data){
+			    				$('#${entity_name_low}Form').form('clear');
+			    				<#list beans as bean>
+		    				  		$('#${bean.propName}').val(data.${bean.propName});
+				             	</#list>
+				    			$('#${entity_name_low}Dialog').dialog('open');
+			    			}
+				    		hideLoading();
+		    			},error:function(data){
+		    				$.messager.alert('提示',data,'error');
+		    				hideLoading();
+		    			}
+		    		});
+		    	}else{
+		    		$.messager.alert('提示',"请选择一项进行修改!",'info');return;
+		    	}
+		    }
+		    function delete${entity_name}(){
+		    	var chks = null;
+	        	chks = $('#tt').datagrid('getChecked');
+	        	if(chks.length<1){
+	        		$.messager.alert('提示','请至少选择一项!','warning');
+	        		return ;
+	        	}
+	        	var arr = new Array();
+	        	for(var c in chks){
+	        		arr[c] = chks[c].id;
+	        	}
+	        	$.messager.confirm('提示', '确定要删除该项目吗?', function(yes){
+	        		if(yes){
+	        			showLoading();
+	        			$.ajax({
+	        				url:'${r'${'}ctx}/${entity_name_low}/delete${entity_name}',
+	        				type:"POST",
+	        				data:{'param':arr.toString()},
+	        				dataType:"json",
+	        				async: false,
+	        				success:function(data){
+		        				$.messager.alert('提示',data,'info');
+		        				$('#tt').datagrid('reload');
+		        				$('#tt').datagrid('clearSelections');
+		        				hideLoading();
+	        				},error:function(data){
+	        					$.messager.alert('提示',data,'error');
+	        					$('#tt').datagrid('clearSelections');
+	        					hideLoading();
+	        				}
+	        			});
+	        		}
+	        	});
+		    }
+		    //***********************************************************************************************//
+		    //********************************************** 华丽分割线 ***************************************//
+		    //***********************************************************************************************//
+		</script>
+	</body>
+</html>
