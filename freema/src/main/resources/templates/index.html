@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Freemarker模板引擎
+<h1>${resource.name}</h1>
+<h1>${resource.website}</h1>
+<h1>${resource.language}</h1>
+
+
+
+<h1>${list?size}</h1>
+
+<h1>${base.contextPath}</h1>
+
+<script>
+    if(!window.localStorage)
+    {
+        alert("浏览器支持localhoststorage");
+
+    }
+    else
+    {
+        window.localStorage.setItem("a","123123123")
+        console.log(typeof window.localStorage)
+    }
+</script>
+
+</body>
+</html>
