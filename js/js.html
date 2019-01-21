@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+	
+$("button").click(function(){
+    $.ajax({
+	url : "https://crm-api.doukor.com:8082/crmClazz/query",
+	type : "POST",
+	dataType: "json",
+	contentType: "application/json",
+	headers : {
+	"token" : "eyJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiI3Y2VlNjdjZS05NDhmLTRjYjktOWEzMC0yNDg0NjQxYzMyZmYiLCJzdWIiOiJeeGlhbmcjQCpwZW5nJCIsImlzcyI6InhpYW9wZW5nX2tlamkiLCJ0eXAiOiJKV1QiLCJleHAiOjE1NDkyNTMzNjUsImFsZyI6IkhTMjU2IiwiaWF0IjoxNTQ3OTU3MzY1LCJqdGkiOiI5NzkwMjI0YjMzZDk0N2Q1YWZlYzY0NWJmZjE5ZTE1YSJ9.RhkxvRVLO6GZRw_juu0GdSZ3InuNns7ksA00MLMHoyk",
+	"roleId" : "f4f32334-da12-40fa-bd31-0e81a8eb4116",
+	"crmRoleMenuId" : "d67515bc-63ea-4155-903e-6fa43cbd3e32"
+	},
+	data :  JSON.stringify({}),
+	success : function(data,status){
+	console.log(data);
+	alert("sss");
+	}
+	
+    });
+});
+
+});
+</script>
+</head>
+<body>
+
+<div id="div1"><h2>使用 jQuery AJAX 修改文本内容</h2></div>
+<button>获取外部内容</button>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://rm-bp152w19gvx3tj8be3o.mysql.rds.aliyuncs.com/crmnew?useUnicode=true&characterEncoding=utf8&useSSL=true&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true
+    username: root
+    password: Hugaint2017
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
