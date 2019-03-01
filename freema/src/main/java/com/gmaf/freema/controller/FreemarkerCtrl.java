@@ -13,6 +13,8 @@ import java.util.List;
 public class FreemarkerCtrl {
     @Autowired
     private Resources resources;
+    @Autowired
+    private Test test;
 
     @RequestMapping("/test")
     public String test(ModelMap modelMap)
@@ -27,5 +29,11 @@ public class FreemarkerCtrl {
         list.add("third");
         modelMap.addAttribute("list",list);
         return "index";
+    }
+    @RequestMapping("/child")
+    public String child()
+    {
+        test.aa();
+        return null;
     }
 }
