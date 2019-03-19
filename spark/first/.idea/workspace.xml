@@ -2,404 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a35f299a-8c1f-45ed-b130-87566e672d19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../freema/src/main/java/com/gmaf/freema/controller/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../freema/src/main/java/com/gmaf/freema/controller/TestChild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../freema/src/main/java/com/gmaf/freema/controller/TestImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../image/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../image/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../image/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../image/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../image/image.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../image/src/ImageOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/first.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmAddressBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmBusinessCardBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmBusinessCardInformationBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmBusinessCardProductBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmBusinessCardVisitCountBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmBusinessCardVisitHistoryBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmClazzBakBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmClazzScheduleBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmClazzScheduleStudentBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmContactBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmContactOrganizationBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmCustomerBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmCustomerOrganizationBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmDataDictionaryBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmMenuBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmMenuParametersBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmMenuParametersValueBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmMessageBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmNoticeBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmObjectTagsBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmOrderBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmOrgBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmOrgPropertyBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmOrganizationBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmProductBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmRelationshipBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmReplyContentBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmRoleBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmRoleMenuBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmRoleMenuParametersBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmSalesLeadBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmSalesOpportunityBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmSalesProcessDetailsBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmSalesWorkflowBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmSalesWorkflowHistoryBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmSchoolBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmStatusTraceBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmStudentBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmSubjectBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmSysParametersBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmTaskBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmTeacherBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmTransferRecordBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmTrialClazzBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmTrialClazzStudentBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmUserAssginProductBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmUserBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmUserOrganizationBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmUserPropertyBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmbiz/CrmUserRoleBiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmAddressController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmBusinessCardController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmBusinessCardInformationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmBusinessCardProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmBusinessCardVisitCountController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmBusinessCardVisitHistoryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmClazzBakController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmClazzScheduleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmClazzScheduleStudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmContactController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmContactOrganizationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmCustomerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmCustomerOrganizationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmDataDictionaryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmMenuController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmMenuParametersController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmMenuParametersValueController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmMessageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmNoticeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmObjectTagsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmOrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmOrgController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmOrgPropertyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmOrganizationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmRelationshipController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmReplyContentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmRoleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmRoleMenuController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmRoleMenuParametersController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmSalesLeadController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmSalesOpportunityController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmSalesProcessDetailsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmSalesWorkflowController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmSalesWorkflowHistoryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmSchoolController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmStatusTraceController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmStudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmSubjectController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmSysParametersController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmTaskController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmTeacherController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmTransferRecordController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmTrialClazzController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmTrialClazzStudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmUserAssginProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmUserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmUserOrganizationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmUserPropertyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmcontroller/CrmUserRoleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmAddress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmBusinessCard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmBusinessCardInformation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmBusinessCardProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmBusinessCardVisitCount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmBusinessCardVisitHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmClazzBak.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmClazzSchedule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmClazzScheduleStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmContact.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmContactOrganization.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmCustomer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmCustomerOrganization.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmDataDictionary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmMenuParameters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmMenuParametersValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmNotice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmObjectTags.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmOrg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmOrgProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmOrganization.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmRelationship.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmReplyContent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmRoleMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmRoleMenuParameters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmSalesLead.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmSalesOpportunity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmSalesProcessDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmSalesWorkflow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmSalesWorkflowHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmSchool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmStatusTrace.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmSubject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmSysParameters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmTeacher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmTransferRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmTrialClazz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmTrialClazzStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmUserAssginProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmUserOrganization.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmUserProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmlombok/CrmUserRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmAddressMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmBusinessCardInformationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmBusinessCardMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmBusinessCardProductMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmBusinessCardVisitCountMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmBusinessCardVisitHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmClazzBakMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmClazzScheduleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmClazzScheduleStudentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmContactMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmContactOrganizationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmCustomerMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmCustomerOrganizationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmDataDictionaryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmMenuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmMenuParametersMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmMenuParametersValueMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmMessageMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmNoticeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmObjectTagsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmOrderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmOrgMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmOrgPropertyMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmOrganizationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmProductMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmRelationshipMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmReplyContentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmRoleMenuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmRoleMenuParametersMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmSalesLeadMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmSalesOpportunityMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmSalesProcessDetailsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmSalesWorkflowHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmSalesWorkflowMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmSchoolMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmStatusTraceMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmStudentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmSubjectMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmSysParametersMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmTaskMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmTeacherMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmTransferRecordMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmTrialClazzMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmTrialClazzStudentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmUserAssginProductMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmUserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmUserOrganizationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmUserPropertyMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmmapper/CrmUserRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmAddressMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmBusinessCardInformationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmBusinessCardMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmBusinessCardProductMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmBusinessCardVisitCountMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmBusinessCardVisitHistoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmClazzBakMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmClazzScheduleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmClazzScheduleStudentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmContactMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmContactOrganizationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmCustomerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmCustomerOrganizationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmDataDictionaryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmMenuMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmMenuParametersMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmMenuParametersValueMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmMessageMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmNoticeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmObjectTagsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmOrderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmOrgMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmOrgPropertyMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmOrganizationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmProductMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmRelationshipMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmReplyContentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmRoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmRoleMenuMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmRoleMenuParametersMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmSalesLeadMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmSalesOpportunityMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmSalesProcessDetailsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmSalesWorkflowHistoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmSalesWorkflowMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmSchoolMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmStatusTraceMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmStudentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmSubjectMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmSysParametersMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmTaskMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmTeacherMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmTransferRecordMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmTrialClazzMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmTrialClazzStudentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmUserAssginProductMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmUserOrganizationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmUserPropertyMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/crmxml/CrmUserRoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.idea/libraries/Maven__org_freemarker_freemarker_2_3_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/entries" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/format" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/0b/0b46ebd3c82167c8c005d7dee99c750815357820.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/18/180b81ee81ed5e4c55bf1b27de71aea228b2a589.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/19/1954ab62fcfcde017c1ed1da1dc091dc3e3665b5.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/19/1981f777df26968fa0ecbad74fccfc8142e39df8.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/1b/1b3f7a9b33b83683366b478aa6e60c9a334be28d.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/1c/1ce9c05a188d2bb1fe70aef70fc0d5b3fad6d53f.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/20/208d00e1497c52df0a91463e2fece525e552cdbb.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/22/22e63e54cba11a65045ee08cf3bea408ce6024f3.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/25/25583e39b93c658b47d03cae41a243e5b88c0431.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/27/27e11161cc6d8ae90689e1053f00e3bff03a152d.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/32/325d75503cb550055b7de19890d9c1fffc52b1b2.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/37/37f30196c22c2a5881d5936ddd0981c59fce7f68.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/3e/3ec01e52e6d1076db7a04d6ef1cf9e3f09a496f9.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/40/40614f0f75ae64f2c217ff4f2994e18310bedbab.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/44/4497ac42abfd745a6e9bafed84e89dd001863cc6.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/4b/4bcdebe14bb39ed58253cb5713fd3e2aa2e6b03d.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/4c/4c4668321a90e9654a73b0d55f16830e32a7c2ef.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/6f/6faf15471127ded9bd5a8787b599367ca05f1343.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/70/7040e9604a719c1154e5715567f8fd70e9efe01c.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/70/70c2a31731825f0803164cfe3f466d2aaa1af4c8.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/76/76ff98f1aa9c6edcac397263c4db19f0539d08f9.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/77/77839adee14067642a5420c4a7bce7fef60f5b90.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/82/8287cf8607c6bc281d343a9cd1c9cc0ef1cd2457.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/85/85362ec00780d6cb232d0082f1bb5437a99f4725.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/86/863b8beb06be9767b52dfd64905a9a0fdc8e3e30.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/87/8703dbb487852b0ec820932cb1c00259ff22ec94.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/88/88a5232721b5706dc204e96edda5e22ee1ee846c.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/8e/8e4fc70f28fde0ba8b0d519ec6c050266c08d423.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/90/908a95c70ba38f1cc06f2ebfc565441050e8262e.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/95/956b0c5997bc85fb61a10c6d0414c13d3d33328b.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/99/99e011d8eb7bd287e113faca58c08d49ce8a2bd8.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/9a/9ae981f68ab9f9408ffda1ec7eff8e67fc040f85.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/9b/9bef650e3a6a83d64407727e035c4655280be63c.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/9d/9dd48408720a1bcb47e628046bf135ece4a4353c.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/a1/a112be21c325d37ebc17baafd40c0386b5d09df1.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/a4/a4a037789a578f03765785da14ef311e1dcd8584.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/ad/ad2be5385aba53c5c8bd2dba403882cd53e81cc3.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/ad/adbd5d0311cf284584355c47a8f28d82be055e06.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/b0/b0e865e92547c4fa15d3cd4a00c2d22b0f2e655b.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/b4/b4096832c455fe5273c7969ad918834b6cd632ce.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/bc/bca989601ef682ddf5874c2c918bddb8c01964eb.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/ca/ca14c42535a43f3b3e05be3a4934201488cc0563.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/ca/ca253ac467dbc4f86658265e2264366bcc17f4e3.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/d9/d9f3f33ff1ecebc05bccb662e7cc8c1892cd1a47.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/db/db931c77007995603c8c3fdc8789312c04e1748f.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/e3/e3dc692ebcb376973cc45514dd08e968e2543500.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/e9/e9b548d6fea5f0538d28b7f9daabe65823b54bab.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/eb/ebea1e37139bdb1866694cb7c9397507ed253994.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/ed/ed003dd7e13d12da21596b4003bfc8510ab4e9ac.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/fb/fbacaa72e3ede3ba687eb7becc517a08da2b1d01.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/fe/fe253957107f99b03ded54ba4fd5e2c890285c56.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/pristine/fe/fe5375dff66c9c1c9cc814a355e5658945aeffe0.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/.svn/wc.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/inlee-utils.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/java/com/inlee/util/codegenerate/FreeMarker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/java/com/inlee/util/codegenerate/FreeMarker1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/java/com/inlee/util/codegenerate/bean/EntityBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template/ApiService.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template/ApiServiceImpl.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template/BizService.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template/Controller.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template/Entity.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template/EntityJson.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template/EntityLombok.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template/Mapper.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template/XmlMapper-v1.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template/XmlMapper.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template/XmlMapperOld.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template2/ApiService.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template2/ApiServiceImpl.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template2/BizService.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template2/Controller.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template2/Entity.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template2/EntityJson.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template2/EntityLombok.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template2/Mapper.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template2/XmlMapper.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/src/main/resources/template2/XmlMapperOld.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/com/inlee/util/codegenerate/FreeMarker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/com/inlee/util/codegenerate/FreeMarker1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/com/inlee/util/codegenerate/bean/EntityBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template/ApiService.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template/ApiServiceImpl.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template/BizService.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template/Controller.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template/Entity.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template/EntityJson.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template/EntityLombok.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template/Mapper.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template/XmlMapper-v1.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template/XmlMapper.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template/XmlMapperOld.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template2/ApiService.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template2/ApiServiceImpl.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template2/BizService.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template2/Controller.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template2/Entity.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template2/EntityJson.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template2/EntityLombok.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template2/Mapper.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template2/XmlMapper.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../code/inlee-utils-for-crm/target/classes/template2/XmlMapperOld.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../freema/src/main/java/com/gmaf/freema/controller/FreemarkerCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../freema/src/main/java/com/gmaf/freema/controller/FreemarkerCtrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/first-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/first.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/first.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/first_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/first_2.12/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/first_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/first_2.12/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="2043473510">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -419,12 +73,15 @@
     <option name="width" value="1374" />
     <option name="height" value="748" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -443,11 +100,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -470,6 +130,30 @@
     </option>
   </component>
   <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="first" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="first [file:/E:/xiaopeng/githup/spark/first/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="first-build [file:/E:/xiaopeng/githup/spark/first/]" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$" value="3101461952409" />
@@ -494,28 +178,24 @@
       <option name="presentableId" value="Default" />
       <updated>1550730972859</updated>
       <workItem from="1550730979630" duration="681000" />
+      <workItem from="1551581047965" duration="847000" />
+      <workItem from="1552871437562" duration="227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="681000" />
+    <option name="totallyTimeSpent" value="1755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3542296" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3648036" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.5071542" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -523,18 +203,24 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="sbt" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="BPMNPalette" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.5071542" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="sbt" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="BPMNPalette" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
